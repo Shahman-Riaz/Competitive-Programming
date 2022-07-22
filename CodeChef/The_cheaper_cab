@@ -1,0 +1,5 @@
+# cook your dish here
+n = int(input())
+for i in range(n):
+    (a, b) = map(int, input().split(' '))
+    print('FIRST') if a < b else print('ANY') if a == b else print('SECOND')
