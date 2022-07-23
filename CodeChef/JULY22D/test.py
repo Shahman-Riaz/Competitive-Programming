@@ -1,6 +1,4 @@
-i = 1
-while i < 20:
-  if (i % 3 == 0):
-    print(i)
-    break
-  i += 1
+from math import floor
+
+
+print(floor(12/10))
